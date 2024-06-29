@@ -54,7 +54,7 @@ def input_new_name(name_label):
 
 
 def confirm_exit(window):
-    if messagebox.askokcancel("Quit", "Do you really want to exit? If you exit, you can't undo these changes."):
+    if messagebox.askokcancel("Quit", "Do you really want to exit? If you exit, you can't undo the changes you've made."):
         window.destroy()
 
 
